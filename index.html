@@ -7,8 +7,11 @@
 </head>
 <body>
     <div class="container">
-        <input type="url" name="url" id="url"><br>
-        <input type="submit" onclick="onclickFunction()" value="Testa URL">
+        <!-- <input type="url" name="url" id="url"><br>
+        <input type="submit" onclick="onclickFunction()" value="Testa URL"> -->
+
+        <input type="submit" onclick='onclickLoad()' value='Carica i post'>
+        <div id="postResult"></div>
         <div class="spinner-border text-primary" role="status" id="spinner">
             <span class="visually-hidden">Loading...</span>
         </div>
